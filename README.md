@@ -1,9 +1,10 @@
 # Bilheteria concorrente
 
+**Link do vídeo:** PREENCHER com o link do YouTube (não listado) ou do Drive (qualquer pessoa com o link pode ver).
+
 Projeto final de Paradigmas de Linguagens de Programação. Enunciado completo no Blackboard.
 
-Os arquivos de `src/` que vocês escrevem já existem, vazios; o `tipos.ts` e o `servidor.ts` vêm prontos. O que vai em cada um está no passo
-indicado do enunciado:
+Os arquivos de `src/` descritos abaixo são preenchidos conforme os passos do enunciado; `tipos.ts` e `servidor.ts` vêm prontos:
 
 | Arquivo | Passo do enunciado |
 | :--- | :--- |
@@ -35,8 +36,6 @@ curl -X POST localhost:3000/reservas -H 'Content-Type: application/json' \
 ---
 
 ## Preencham (avaliado no vídeo)
-
-**Link do vídeo:** <!-- PREENCHER: link do YouTube (não listado) ou Google Drive com acesso "qualquer pessoa com o link" -->
 
 ### Integrantes
 
