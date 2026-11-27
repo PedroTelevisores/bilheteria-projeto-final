@@ -42,7 +42,7 @@ curl -X POST localhost:3000/reservas -H 'Content-Type: application/json' \
 
 | Nome | RGM | Usuário do GitHub | Parte principal |
 | :--- | :--- | :--- | :--- |
-| Pedro Emanuel Soares Queiroz | 35764741 |  |  |
+| Pedro Emanuel Soares Queiroz | 35764741 | [PedroTelevisores](https://github.com/PedroTelevisores) | Trabalho sozinho |
 
 ### Decisões
 
