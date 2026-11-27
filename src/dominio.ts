@@ -86,6 +86,13 @@ export class Evento {
 
   // Devolve as poltronas para a venda; todas precisam estar vendidas.
   liberar(poltronas: number[]): void {
+    const repetida = poltronas.some(
+      (poltrona, indice) => poltronas.indexOf(poltrona) !== indice,
+    );
+    if (repetida) {
+      throw new DadosInvalidosErro("poltrona repetida ao liberar");
+    }
+
     const invalida = poltronas.some(
       (poltrona) => !Number.isInteger(poltrona) || !this.#vendidas.includes(poltrona),
     );
