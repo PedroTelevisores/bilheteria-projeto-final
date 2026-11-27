@@ -37,7 +37,7 @@ export class Bilheteria {
 
   async reservar(pedido: Pedido): Promise<Comprovante> {
     // 1. Confere o pedido antes de qualquer cobrança.
-    if (!pedido || !pedido.ingressos || pedido.ingressos.length === 0) {
+    if (!pedido || !Array.isArray(pedido.ingressos) || pedido.ingressos.length === 0) {
       throw new DadosInvalidosErro("o pedido não tem ingressos");
     }
 
