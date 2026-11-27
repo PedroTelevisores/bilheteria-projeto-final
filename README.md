@@ -1,8 +1,5 @@
 # Bilheteria concorrente
 
-**Integrante:** Pedro Emanuel Soares Queiroz  
-**RGM:** 35764741
-
 Projeto final de Paradigmas de Linguagens de Programação. Enunciado completo no Blackboard.
 
 Os arquivos de `src/` que vocês escrevem já existem, vazios; o `tipos.ts` e o `servidor.ts` vêm prontos. O que vai em cada um está no passo
@@ -45,10 +42,7 @@ curl -X POST localhost:3000/reservas -H 'Content-Type: application/json' \
 
 | Nome | RGM | Usuário do GitHub | Parte principal |
 | :--- | :--- | :--- | :--- |
-| <!-- PREENCHER: nome completo --> | <!-- PREENCHER: RGM --> | <!-- PREENCHER: @usuario --> | <!-- PREENCHER: ex. domínio/erros --> |
-| <!-- PREENCHER: nome completo --> | <!-- PREENCHER: RGM --> | <!-- PREENCHER: @usuario --> | <!-- PREENCHER: ex. preço funcional --> |
-| <!-- PREENCHER: nome completo --> | <!-- PREENCHER: RGM --> | <!-- PREENCHER: @usuario --> | <!-- PREENCHER: ex. bilheteria/concorrência --> |
-| <!-- PREENCHER: nome completo --> | <!-- PREENCHER: RGM --> | <!-- PREENCHER: @usuario --> | <!-- PREENCHER: ex. servidor/README --> |
+| Pedro Emanuel Soares Queiroz | 35764741 |  |  |
 
 ### Decisões
 
