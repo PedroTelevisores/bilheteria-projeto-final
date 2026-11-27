@@ -22,13 +22,14 @@ export function montarIngressos(
   pessoas: Pessoa[],
   temDireitoAMeia: (pessoa: Pessoa) => boolean,
 ): Ingresso[] {
+  const calcularValor = valorDoIngresso(precoBase);
   return pessoas.map((pessoa) => {
     const tipo: TipoIngresso = temDireitoAMeia(pessoa) ? "meia" : "inteira";
     return {
       nome: pessoa.nome,
       poltrona: pessoa.poltrona,
       tipo,
-      valor: valorDoIngresso(precoBase)(tipo),
+      valor: calcularValor(tipo),
     };
   });
 }
