@@ -5,8 +5,9 @@ import { criarPagamentoFalso } from "./pagamento.ts";
 import { criarServidor } from "./servidor.ts";
 
 // O evento 1 tem 100 poltronas porque é o que o bench usa por padrão.
+const capacidadeEventoDoBench = 100;
 const eventos = [
-  new Evento(1, "Show da Virada", 120, 100),
+  new Evento(1, "Show da Virada", 120, capacidadeEventoDoBench),
   new Evento(2, "Festival de Inverno", 80, 60),
   new Evento(3, "Noite do Jazz", 150, 40),
 ];
